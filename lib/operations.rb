@@ -3,8 +3,6 @@ def unsafe?(60, 40)
 		puts "true"
 	elsif unsafe? < 40
 		puts "true"
-	else unsafe? ||
-		puts "false"
 	end
 end
 
