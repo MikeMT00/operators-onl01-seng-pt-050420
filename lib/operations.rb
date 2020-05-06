@@ -1,7 +1,7 @@
 def unsafe?(speed)
-	if speed == > 60
+	if speed == speed > 60
 		return "true"
-	elsif speed == < 40
+	elsif speed == speed < 40
 		return "true"
 	end
 end
