@@ -1,4 +1,4 @@
-def unsafe?(60, 40)
+def unsafe?(speed)
 	if unsafe? > 60
 		puts "true"
 	elsif unsafe? < 40
